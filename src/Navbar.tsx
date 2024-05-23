@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -6,12 +7,16 @@ const Navbar = () => {
         <div className="flex">
           <a className="btn btn-ghost text-xl">daisyUI</a>
         </div>
-        <div className="flex">
-          <a className="btn btn-ghost">Home</a>
-        </div>
-        <div className="flex-1">
-          <a className="btn btn-ghost">About Us</a>
-        </div>
+        <Link to={`/`}>
+          <div className="flex">
+            <a className="btn btn-ghost">Home</a>
+          </div>
+        </Link>
+        <Link to={`/about`}>
+          <div className="flex-1">
+            <a className="btn btn-ghost">About Us</a>
+          </div>
+        </Link>
         <div className="flex-none">
           <div className="form-control">
             <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
