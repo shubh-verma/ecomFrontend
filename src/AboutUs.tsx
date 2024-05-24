@@ -1,9 +1,9 @@
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 
 const AboutUs = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div>
         <h2>Founder</h2>
         <article>

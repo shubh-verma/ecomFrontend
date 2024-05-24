@@ -1,12 +1,12 @@
-import Card from "./Card"
+import { Outlet } from 'react-router-dom';
 import Navbar from "./Navbar"
+import Card from "./Card"
 
 
 function App() {
 
   return (
     <>
-      <Navbar />
       <Card />
     </>
   )
