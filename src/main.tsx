@@ -7,6 +7,7 @@ import "./main.css"
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AboutUs from './AboutUs.tsx';
 import Navbar from './Navbar.tsx';
+import ProductDetail from './ProductDetail.tsx';
 
 
 
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <AboutUs />,
+      },
+      {
+        path: "/product",
+        element: <ProductDetail />,
       },
     ]
   }
