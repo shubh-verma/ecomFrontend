@@ -1,15 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import "./main.css"
-
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.tsx";
+import "./main.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import AboutUs from './AboutUs.tsx';
-import Navbar from './Navbar.tsx';
-import ProductDetail from './ProductDetail.tsx';
-
-
+import AboutUs from "./AboutUs.tsx";
+import Navbar from "./Navbar.tsx";
+import ProductDetail from "./ProductDetail.tsx";
 
 const router = createBrowserRouter([
   {
@@ -27,12 +24,12 @@ const router = createBrowserRouter([
         path: "/product",
         element: <ProductDetail />,
       },
-    ]
-  }
+    ],
+  },
 ]);
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);

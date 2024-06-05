@@ -10,7 +10,10 @@ const AboutUs = () => {
           <div>
             <h3>Shubham Verma</h3>
           </div>
-          <p>I am Shubham Verma, the founder of ECommerce. I aim to provide the best experience possible</p>
+          <p>
+            I am Shubham Verma, the founder of ECommerce. I aim to provide the
+            best experience possible
+          </p>
         </article>
       </div>
     </>
@@ -18,4 +21,3 @@ const AboutUs = () => {
 };
 
 export default AboutUs;
-

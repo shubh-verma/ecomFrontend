@@ -1,13 +1,11 @@
-import Card from "./Card"
-
+import Card from "./Card";
 
 function App() {
-
   return (
     <>
       <Card />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
